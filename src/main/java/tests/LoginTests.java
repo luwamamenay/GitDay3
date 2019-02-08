@@ -17,7 +17,8 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests {
-
+//Login testes are mantained here.
+ //without page object approch
  WebDriver driver;
 
  @BeforeMethod
