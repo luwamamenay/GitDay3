@@ -14,12 +14,15 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTests {
 //Login testes are mantained here.
  //without page object approch
  WebDriver driver;
+ Map<String ,String > myMap = new HashMap<>();
 
  @BeforeMethod
  public void setUp() {
